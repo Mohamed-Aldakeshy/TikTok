@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6075DA2C0CB63000E6FF85 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6075D92C0CB63000E6FF85 /* CustomVideoPlayer.swift */; };
 		BCAF7CF32C0A359D00C4AAA9 /* TikTokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7CF22C0A359D00C4AAA9 /* TikTokApp.swift */; };
 		BCAF7CF52C0A359D00C4AAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7CF42C0A359D00C4AAA9 /* ContentView.swift */; };
 		BCAF7CF72C0A359E00C4AAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAF7CF62C0A359E00C4AAA9 /* Assets.xcassets */; };
 		BCAF7CFA2C0A359E00C4AAA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAF7CF92C0A359E00C4AAA9 /* Preview Assets.xcassets */; };
+		BCAF7D112C0A3C8D00C4AAA9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D102C0A3C8D00C4AAA9 /* MainTabView.swift */; };
+		BCAF7D132C0B418D00C4AAA9 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D122C0B418D00C4AAA9 /* FeedView.swift */; };
+		BCAF7D152C0B435C00C4AAA9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D142C0B435C00C4AAA9 /* FeedCell.swift */; };
+		BCAF7D172C0B496A00C4AAA9 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D162C0B496A00C4AAA9 /* ExploreView.swift */; };
+		BCAF7D192C0B497E00C4AAA9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D182C0B497E00C4AAA9 /* UserCell.swift */; };
+		BCAF7D1B2C0B8CEE00C4AAA9 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D1A2C0B8CEE00C4AAA9 /* NotificationView.swift */; };
+		BCAF7D1D2C0B8CFD00C4AAA9 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D1C2C0B8CFD00C4AAA9 /* NotificationCell.swift */; };
+		BCAF7D1F2C0B925600C4AAA9 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D1E2C0B925600C4AAA9 /* CurrentUserProfileView.swift */; };
+		BCAF7D212C0B92EA00C4AAA9 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D202C0B92EA00C4AAA9 /* ProfileHeaderView.swift */; };
+		BCAF7D282C0B964200C4AAA9 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D272C0B964200C4AAA9 /* PostGridView.swift */; };
+		BCAF7D2A2C0B96F100C4AAA9 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D292C0B96F100C4AAA9 /* UserStatView.swift */; };
+		BCAF7D2C2C0BE72E00C4AAA9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D2B2C0BE72E00C4AAA9 /* Post.swift */; };
+		BCAF7D312C0BE7B600C4AAA9 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF7D302C0BE7B600C4AAA9 /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC6075D92C0CB63000E6FF85 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 		BCAF7CEF2C0A359D00C4AAA9 /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAF7CF22C0A359D00C4AAA9 /* TikTokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokApp.swift; sourceTree = "<group>"; };
 		BCAF7CF42C0A359D00C4AAA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCAF7CF62C0A359E00C4AAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCAF7CF92C0A359E00C4AAA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCAF7D102C0A3C8D00C4AAA9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		BCAF7D122C0B418D00C4AAA9 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		BCAF7D142C0B435C00C4AAA9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		BCAF7D162C0B496A00C4AAA9 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		BCAF7D182C0B497E00C4AAA9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		BCAF7D1A2C0B8CEE00C4AAA9 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		BCAF7D1C2C0B8CFD00C4AAA9 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		BCAF7D1E2C0B925600C4AAA9 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		BCAF7D202C0B92EA00C4AAA9 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		BCAF7D272C0B964200C4AAA9 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		BCAF7D292C0B96F100C4AAA9 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		BCAF7D2B2C0BE72E00C4AAA9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BCAF7D302C0BE7B600C4AAA9 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +79,12 @@
 		BCAF7CF12C0A359D00C4AAA9 /* TikTok */ = {
 			isa = PBXGroup;
 			children = (
-				BCAF7CF22C0A359D00C4AAA9 /* TikTokApp.swift */,
-				BCAF7CF42C0A359D00C4AAA9 /* ContentView.swift */,
+				BCAF7D052C0A35CB00C4AAA9 /* App */,
+				BCAF7D042C0A35CA00C4AAA9 /* Core */,
+				BCAF7D032C0A35C800C4AAA9 /* Extentions */,
+				BCAF7D022C0A35C600C4AAA9 /* Model */,
+				BCAF7D012C0A35C400C4AAA9 /* Services */,
+				BCAF7D002C0A35BD00C4AAA9 /* Utils */,
 				BCAF7CF62C0A359E00C4AAA9 /* Assets.xcassets */,
 				BCAF7CF82C0A359E00C4AAA9 /* Preview Content */,
 			);
@@ -65,6 +97,176 @@
 				BCAF7CF92C0A359E00C4AAA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCAF7D002C0A35BD00C4AAA9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BCAF7D012C0A35C400C4AAA9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BCAF7D022C0A35C600C4AAA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D2B2C0BE72E00C4AAA9 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCAF7D032C0A35C800C4AAA9 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		BCAF7D042C0A35CA00C4AAA9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D0F2C0A36AA00C4AAA9 /* Authentication */,
+				BCAF7D0E2C0A36A900C4AAA9 /* Comments */,
+				BCAF7D0D2C0A36A400C4AAA9 /* Components */,
+				BCAF7D0C2C0A36A300C4AAA9 /* Feed */,
+				BCAF7D0B2C0A36A100C4AAA9 /* Notifications */,
+				BCAF7D0A2C0A36A000C4AAA9 /* Profile */,
+				BCAF7D092C0A369F00C4AAA9 /* Root */,
+				BCAF7D082C0A369D00C4AAA9 /* Search */,
+				BCAF7D072C0A369B00C4AAA9 /* TabBar */,
+				BCAF7D062C0A369A00C4AAA9 /* UploadingMedia */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BCAF7D052C0A35CB00C4AAA9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7CF22C0A359D00C4AAA9 /* TikTokApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BCAF7D062C0A369A00C4AAA9 /* UploadingMedia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadingMedia;
+			sourceTree = "<group>";
+		};
+		BCAF7D072C0A369B00C4AAA9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D102C0A3C8D00C4AAA9 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BCAF7D082C0A369D00C4AAA9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D162C0B496A00C4AAA9 /* ExploreView.swift */,
+				BCAF7D182C0B497E00C4AAA9 /* UserCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BCAF7D092C0A369F00C4AAA9 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7CF42C0A359D00C4AAA9 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		BCAF7D0A2C0A36A000C4AAA9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D242C0B95E100C4AAA9 /* Components */,
+				BCAF7D1E2C0B925600C4AAA9 /* CurrentUserProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BCAF7D0B2C0A36A100C4AAA9 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D1A2C0B8CEE00C4AAA9 /* NotificationView.swift */,
+				BCAF7D1C2C0B8CFD00C4AAA9 /* NotificationCell.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		BCAF7D0C2C0A36A300C4AAA9 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D2F2C0BE77300C4AAA9 /* Service */,
+				BCAF7D2E2C0BE77000C4AAA9 /* View */,
+				BCAF7D2D2C0BE76D00C4AAA9 /* ViewModel */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		BCAF7D0D2C0A36A400C4AAA9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC6075D92C0CB63000E6FF85 /* CustomVideoPlayer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BCAF7D0E2C0A36A900C4AAA9 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		BCAF7D0F2C0A36AA00C4AAA9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BCAF7D242C0B95E100C4AAA9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D272C0B964200C4AAA9 /* PostGridView.swift */,
+				BCAF7D202C0B92EA00C4AAA9 /* ProfileHeaderView.swift */,
+				BCAF7D292C0B96F100C4AAA9 /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BCAF7D2D2C0BE76D00C4AAA9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D302C0BE7B600C4AAA9 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BCAF7D2E2C0BE77000C4AAA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF7D122C0B418D00C4AAA9 /* FeedView.swift */,
+				BCAF7D142C0B435C00C4AAA9 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCAF7D2F2C0BE77300C4AAA9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +339,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAF7D132C0B418D00C4AAA9 /* FeedView.swift in Sources */,
+				BC6075DA2C0CB63000E6FF85 /* CustomVideoPlayer.swift in Sources */,
+				BCAF7D1D2C0B8CFD00C4AAA9 /* NotificationCell.swift in Sources */,
+				BCAF7D212C0B92EA00C4AAA9 /* ProfileHeaderView.swift in Sources */,
+				BCAF7D2A2C0B96F100C4AAA9 /* UserStatView.swift in Sources */,
+				BCAF7D152C0B435C00C4AAA9 /* FeedCell.swift in Sources */,
+				BCAF7D312C0BE7B600C4AAA9 /* FeedViewModel.swift in Sources */,
+				BCAF7D2C2C0BE72E00C4AAA9 /* Post.swift in Sources */,
 				BCAF7CF52C0A359D00C4AAA9 /* ContentView.swift in Sources */,
+				BCAF7D1B2C0B8CEE00C4AAA9 /* NotificationView.swift in Sources */,
 				BCAF7CF32C0A359D00C4AAA9 /* TikTokApp.swift in Sources */,
+				BCAF7D172C0B496A00C4AAA9 /* ExploreView.swift in Sources */,
+				BCAF7D282C0B964200C4AAA9 /* PostGridView.swift in Sources */,
+				BCAF7D1F2C0B925600C4AAA9 /* CurrentUserProfileView.swift in Sources */,
+				BCAF7D112C0A3C8D00C4AAA9 /* MainTabView.swift in Sources */,
+				BCAF7D192C0B497E00C4AAA9 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
